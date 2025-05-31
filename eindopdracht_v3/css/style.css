@@ -1,0 +1,157 @@
+/* ---------------------------------------------------------------------- algemeen ----------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(198, 92, 108);
+    margin-bottom: 3em;
+    height: 5em;
+}
+
+header img{
+    height: 5em;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-image: url(/afbeeldingen/achtergrond3.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 5em;
+    color:white;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 3em;
+    color:white;
+    margin-bottom: 1em;
+}
+
+/* ---------------------------------------------------------------------- home ----------------------------------------------------------------*/
+
+#homeKeuze{
+    display:flex;
+    flex-direction: row;
+}
+
+#homescherm_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+#homescherm_buttons button{
+    width: 40em;
+    height: 8em;
+    margin-bottom: 3em;
+    background-color: rgb(198, 92, 108);
+    border-radius: 8em;
+    border-color: white;
+    color: white;
+}
+
+#home{
+    display:flex;
+    justify-content: space-between;
+}
+
+#pilaarAfbeelding{
+    margin-left: 27em;
+    margin-top: -11em;
+    height: 55em;
+}
+
+/* ---------------------------------------------------------------------- bij elke stap toegepast ----------------------------------------------------------------*/
+
+.keuzeButtonsRijLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: -5em;
+}
+
+.keuzeButtonsRijLinks button{
+    width: 40em;
+    height: 8em;
+    margin-bottom: 2em;
+    background-color: rgb(198, 92, 108);
+    border-radius: 8em;
+    border-color: white;
+    color: white;
+}
+
+#pilaarAfbeelding2{
+    margin: none;
+    height: 30em;
+    justify-content:center ;
+}
+
+.pijlen{
+    width: 10em;
+    margin-top: 10em;
+}
+
+/* ---------------------------------------------------------------------- alle keuze opties ----------------------------------------------------------------*/
+#schoenKeuze{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#laarsKeuze{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#detailsKeuze{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#zoolKeuze{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#schachtKeuze{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/* ---------------------------------------------------------------------- eindresultaat ----------------------------------------------------------------*/
+#eindKeuzeKnop{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+}
+
+#eindKeuzeKnop{
+    display:flex;
+    width: 20em;
+    height: 4em;
+    margin-top: 20em;
+    background-color: rgb(198, 92, 108);
+    border-radius: 8em;
+    border-color: white;
+    color: white;
+}
+
+#eindresultaatAfbeelding{
+    margin-left: 27em;
+    margin-top: -10em;
+    height: 70em;
+}

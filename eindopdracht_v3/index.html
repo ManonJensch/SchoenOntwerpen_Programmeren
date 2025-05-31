@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/javascript.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Schoen Ontwerper</title>
+    <link rel="icon" type="image/x-icon" href="afbeeldingen/cowboylaarsWit.png">
+</head>
+<body>
+   <header>
+        <img src="/afbeeldingen/logo.png" alt="Logo van schoenen ontwerper">
+   </header>
+
+   <main>
+    <section id="home">
+        <div id="homeKeuze">
+            <div>
+                <h1>Welkom!</h1>
+                <h2>Ontwerp jouw eigen schoen!</h2>
+                <img id="pilaarAfbeelding" src="/afbeeldingen/pilaar.png" alt="Schoen display op pilaar">
+            </div>
+            <div id="homescherm_buttons">
+                <button>Schoen ontwerpen</button>
+                <button id="achtergrondKnop">Verander achtergrond</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- style= ... met hulp van Anne -->
+    <section id="schoenSoortKiezen" style="display: none;">
+        <h2>Ontwerp jouw eigen schoen!</h2>
+        <div id="schoenKeuze">
+            <div class="keuzeButtonsRijLinks">
+                <button id="schoenButton">Schoen</button>
+                <button id="buitenkantButton">Buitenkant</button>
+                <button id="detailButton">Detail</button>
+                <button id="zoolButton">Zool</button>
+                <button id="binnenkantButton">Binnenkant</button>
+            </div>
+            <div>
+                <img id="pilaarAfbeelding2" src="/afbeeldingen/cowboylaarsWit.png" alt="Schoen display op pilaar">
+            </div>
+            <div>   
+                <img id="volgendeKnop" class="pijlen" src="/afbeeldingen/pijlRechts.png" alt="pijl naar rechts">
+                <button id="eindKeuzeKnop">Bevestig</button>
+            </div>
+               
+            
+        </div>
+    </section>
+   
+    <section id="eindScherm" style="display: none;">
+        <h2 id="veranderTitel">Ontwerp jouw eigen schoen!</h2>
+        <div>
+            <img id="eindresultaatAfbeelding" src="/afbeeldingen/eindresultaatCowboylaars.png" alt="eindresultaat op pilaar">
+        </div>
+    </section>
+
+    <audio id="achtergrondMuziek" autoplay loop>
+    <source src="/audio/backgroundMusicFromPixaBay.mp3" type="audio/mp3"></audio>
+   </main>
+
+   <footer>
+
+   </footer>
+</body>
+</html>
